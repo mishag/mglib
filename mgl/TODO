@@ -1,0 +1,6 @@
+1. Append time of creation to the log file name when the file is first
+created.
+2. Implement log rotation.
+3. Make sure Configure() is threadsafe.
+4. strftime is not threadsafe. Consider changing it.
+5. localtime_r is not platform independent. 
